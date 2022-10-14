@@ -6,6 +6,8 @@ public class BaloonMovement : MonoBehaviour
 {
     Rigidbody rb;
 
+    [SerializeField] Transform balloonMovePoint1;
+    [SerializeField] Transform balloonMovePoint2;
 
 
     // Start is called before the first frame update
