@@ -9,9 +9,9 @@ public class ObjectSpinner : MonoBehaviour
 	[SerializeField][Range(0,1)] int rotateY = 1;
 	[SerializeField][Range(0,1)] int rotateZ = 0;
 
-    void Update()
+    void LateUpdate()
     {
         Vector3 RotateVector = new Vector3(rotateX, rotateY, rotateZ);
-		transform.Rotate(RotateVector * RotateSpeed);
+		transform.Rotate(RotateVector * RotateSpeed * Time.deltaTime);
     }
 }
