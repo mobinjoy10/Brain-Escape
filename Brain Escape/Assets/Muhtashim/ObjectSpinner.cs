@@ -12,6 +12,6 @@ public class ObjectSpinner : MonoBehaviour
     void LateUpdate()
     {
         Vector3 RotateVector = new Vector3(rotateX, rotateY, rotateZ);
-		transform.Rotate(RotateVector * RotateSpeed * Time.deltaTime);
+		transform.Rotate(RotateVector * RotateSpeed * Time.deltaTime*10);
     }
 }
