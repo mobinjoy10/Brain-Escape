@@ -11,6 +11,8 @@ public class BaloonPop : MonoBehaviour
 
     [SerializeField] Transform KeyObject;
 
+    [SerializeField] string KnifeTag;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +36,18 @@ public class BaloonPop : MonoBehaviour
             Instantiate(KeyObject, transform.position, Quaternion.identity);
 
         gameObject.SetActive(false);
+    }
+
+
+    //The following code checks for any collision with Knife tagged object and initiates Burst animation method
+    private void OnTriggerEnter(Collider other)
+    {
+
+        
+        if (other.CompareTag(KnifeTag))
+        {
+            Debug.Log("Putush");
+            baloonBurstAnim();
+        }
     }
 }
