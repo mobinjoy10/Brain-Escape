@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -964,19 +964,9 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c751fe501faaa31438a4eb554906e0f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  balloonMovePoint1: {fileID: 1791120539}
-  balloonMovePoint2: {fileID: 1434823162}
-  balloonMovePoint3: {fileID: 0}
-=======
   serializedVersion: 2
   m_Radius: 0.2
   m_Center: {x: 0, y: -0.01, z: -0.04}
->>>>>>> 461926afe27ecff823125d919d839e57469b3f0e
 --- !u!1 &649683570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,7 +1962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f36612c7becc5c428163e9e14da08c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateSpeed: 55
+  RotateSpeed: 3
   rotateX: 0
   rotateY: 0
   rotateZ: 1
