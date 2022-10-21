@@ -1,11 +1,29 @@
 fileFormatVersion: 2
-guid: b81955c60ee11ea49bac08f14d3817e4
+guid: 8bb16f909e7226f48a5551148dbdac72
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
+      74: 2606612792659774948
+    second: Baloon|Baloon ArmatureAction
+  - first:
       74: -8484240762633317224
     second: Baloon|BaloonAction
+  - first:
+      74: 7095565159532178913
+    second: Baloon|Key.003Action.001
+  - first:
+      74: -4571622699602396335
+    second: Baloon Armature|Baloon ArmatureAction
+  - first:
+      74: -59697682469773408
+    second: Baloon Armature|Baloon pop
+  - first:
+      74: 5825016511136383239
+    second: Baloon Armature|BaloonAction
+  - first:
+      74: -479970914711731526
+    second: Baloon Armature|Key.003Action.001
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -27,43 +45,14 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Baloon|BaloonAction
-      takeName: Baloon|BaloonAction
-      internalID: 0
-      firstFrame: 0.84000003
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
