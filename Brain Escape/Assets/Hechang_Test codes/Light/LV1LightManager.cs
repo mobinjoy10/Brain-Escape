@@ -26,7 +26,14 @@ public class LV1LightManager : MonoBehaviour
 
     void HomelightBlast()
     {
-        HomeLight.SetActive(false);
+        HomeLight.SetActive(false); 
     }
-    
+
+    private void Update()
+    {
+        if(Input.GetKey(KeyCode.W)){
+            HomelightHit();
+        }
+    }
+
 }
