@@ -8,6 +8,8 @@ public class LV1LightManager : MonoBehaviour
     [SerializeField] GameObject MoonLight;
     [SerializeField] GameObject MoonLightReflection;
 
+    [SerializeField] Homelight homelight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,7 @@ public class LV1LightManager : MonoBehaviour
 
     void HomelightBlast()
     {
-        HomeLight.SetActive(false); 
+        homelight.InitiateBlast();
     }
 
     private void Update()
