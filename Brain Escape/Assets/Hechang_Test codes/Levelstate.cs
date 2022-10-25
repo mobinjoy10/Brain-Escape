@@ -15,7 +15,12 @@ public class Levelstate : MonoBehaviour
     {
         Instance = this;
     }
-   
+
+    private void Start()
+    {
+        UpdateLevelState(LevelStates.Begin);
+    }
+
     public enum LevelStates{
         Begin,
         BaloonPop,
