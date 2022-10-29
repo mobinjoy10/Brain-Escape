@@ -418,6 +418,10 @@ struct Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A  : public MonoBehavio
 {
 	// UnityEngine.Animator Homelight::animator
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator_4;
+	// System.String Homelight::KnifeTag
+	String_t* ___KnifeTag_5;
+	// LV1LightManager Homelight::lightManager
+	LV1LightManager_tF66C405E5BFCDB470BBB99AC4D10DF6421867084* ___lightManager_6;
 };
 
 // LV1LightManager
@@ -517,6 +521,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Component_CompareTag_mE6F8897E84F12DF12D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void BaloonPop::baloonBurstAnim()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaloonPop_baloonBurstAnim_m54539E890F7597BE5458C311E45081AB3716E2EC (BaloonPop_tC2752931D037BC449474D966D617231007846DFF* __this, const RuntimeMethod* method) ;
+// System.Void LV1LightManager::HomelightHit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LV1LightManager_HomelightHit_m5014D2D9FF53934317363FE6153E36076EF6CA09 (LV1LightManager_tF66C405E5BFCDB470BBB99AC4D10DF6421867084* __this, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
@@ -534,8 +540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LV1LightManager_HomelightBlast_m85A4C8FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Homelight_InitiateBlast_m5786EF8A99CD0DD563E9237A329CF31FEB742F0A (Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Input::GetKey(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434 (int32_t ___key0, const RuntimeMethod* method) ;
-// System.Void LV1LightManager::HomelightHit()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LV1LightManager_HomelightHit_m5014D2D9FF53934317363FE6153E36076EF6CA09 (LV1LightManager_tF66C405E5BFCDB470BBB99AC4D10DF6421867084* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
@@ -935,6 +939,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Homelight_DisableLight_m0AD5A8B0DDA7912D
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Homelight::OnTriggerEnter(UnityEngine.Collider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Homelight_OnTriggerEnter_mFE2A1FDE5E3180807F5C45D94EAE59D5F549AD18 (Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___other0, const RuntimeMethod* method) 
+{
+	{
+		// if (other.CompareTag(KnifeTag))
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___other0;
+		String_t* L_1 = __this->___KnifeTag_5;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// lightManager.HomelightHit();
+		LV1LightManager_tF66C405E5BFCDB470BBB99AC4D10DF6421867084* L_3 = __this->___lightManager_6;
+		NullCheck(L_3);
+		LV1LightManager_HomelightHit_m5014D2D9FF53934317363FE6153E36076EF6CA09(L_3, NULL);
+	}
+
+IL_0019:
+	{
 		// }
 		return;
 	}
