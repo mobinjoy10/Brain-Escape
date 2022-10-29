@@ -624,6 +624,8 @@ struct IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB;
 struct IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3;
 // UnityEngine.Events.InvokableCallList
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+// LV1LightManager
+struct LV1LightManager_tF66C405E5BFCDB470BBB99AC4D10DF6421867084;
 // UnityEngine.Yoga.Logger
 struct Logger_t092B1218ED93DD47180692D5761559B2054234A0;
 // System.Threading.ManualResetEvent
@@ -12767,6 +12769,10 @@ struct Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A  : public MonoBehavio
 {
 	// UnityEngine.Animator Homelight::animator
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator_4;
+	// System.String Homelight::KnifeTag
+	String_t* ___KnifeTag_5;
+	// LV1LightManager Homelight::lightManager
+	LV1LightManager_tF66C405E5BFCDB470BBB99AC4D10DF6421867084* ___lightManager_6;
 };
 
 // LV1LightManager
@@ -16311,9 +16317,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4305[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4306[4] = 
 {
 	static_cast<int32_t>(offsetof(BaloonPop_tC2752931D037BC449474D966D617231007846DFF, ___baloonAnim_4)),static_cast<int32_t>(offsetof(BaloonPop_tC2752931D037BC449474D966D617231007846DFF, ___triggerName_5)),static_cast<int32_t>(offsetof(BaloonPop_tC2752931D037BC449474D966D617231007846DFF, ___KeyObject_6)),static_cast<int32_t>(offsetof(BaloonPop_tC2752931D037BC449474D966D617231007846DFF, ___KnifeTag_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4307[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4307[3] = 
 {
-	static_cast<int32_t>(offsetof(Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A, ___animator_4)),};
+	static_cast<int32_t>(offsetof(Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A, ___animator_4)),static_cast<int32_t>(offsetof(Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A, ___KnifeTag_5)),static_cast<int32_t>(offsetof(Homelight_t43A769B01ABA111D818274992C549EE1AA4A6F2A, ___lightManager_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4308[5] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,};

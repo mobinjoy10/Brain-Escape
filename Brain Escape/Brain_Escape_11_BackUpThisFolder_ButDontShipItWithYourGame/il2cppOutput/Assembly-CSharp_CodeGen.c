@@ -36,35 +36,37 @@ extern void Homelight_Update_m4FCF6D2FBA2BA851C5FFB3E2215952A712C14BA8 (void);
 extern void Homelight_InitiateBlast_m5786EF8A99CD0DD563E9237A329CF31FEB742F0A (void);
 // 0x0000000C System.Void Homelight::DisableLight()
 extern void Homelight_DisableLight_m0AD5A8B0DDA7912D572E5000E390463CD96898F9 (void);
-// 0x0000000D System.Void Homelight::.ctor()
+// 0x0000000D System.Void Homelight::OnTriggerEnter(UnityEngine.Collider)
+extern void Homelight_OnTriggerEnter_mFE2A1FDE5E3180807F5C45D94EAE59D5F549AD18 (void);
+// 0x0000000E System.Void Homelight::.ctor()
 extern void Homelight__ctor_mAC83DCE3138F51E5A7602F4B044CBFAAA1A3A30B (void);
-// 0x0000000E System.Void Levelstate::add_OnLevelStateChanged(System.Action`1<Levelstate/LevelStates>)
+// 0x0000000F System.Void Levelstate::add_OnLevelStateChanged(System.Action`1<Levelstate/LevelStates>)
 extern void Levelstate_add_OnLevelStateChanged_m7A29C864AC87F1B620482BF9D509E2CF121EB47A (void);
-// 0x0000000F System.Void Levelstate::remove_OnLevelStateChanged(System.Action`1<Levelstate/LevelStates>)
+// 0x00000010 System.Void Levelstate::remove_OnLevelStateChanged(System.Action`1<Levelstate/LevelStates>)
 extern void Levelstate_remove_OnLevelStateChanged_mDE5371FB55BCFE72282EFB523E63190A7FE9C2CA (void);
-// 0x00000010 System.Void Levelstate::Awake()
+// 0x00000011 System.Void Levelstate::Awake()
 extern void Levelstate_Awake_m508F6094B85197CE8C0AE4950C6A5EE4A8958780 (void);
-// 0x00000011 System.Void Levelstate::Start()
+// 0x00000012 System.Void Levelstate::Start()
 extern void Levelstate_Start_m7AAD1A70AE4A835B9335FB2809D20EF283D6D72F (void);
-// 0x00000012 System.Void Levelstate::UpdateLevelState(Levelstate/LevelStates)
+// 0x00000013 System.Void Levelstate::UpdateLevelState(Levelstate/LevelStates)
 extern void Levelstate_UpdateLevelState_mC831770D24DF8F93AA290B05B8320CF875CBFCFC (void);
-// 0x00000013 System.Void Levelstate::.ctor()
+// 0x00000014 System.Void Levelstate::.ctor()
 extern void Levelstate__ctor_m1750672FA2D6464A87D2B5217766D16BB9393DE8 (void);
-// 0x00000014 System.Void LV1LightManager::Start()
+// 0x00000015 System.Void LV1LightManager::Start()
 extern void LV1LightManager_Start_mBFC92CDFD11EFBA2390FC37B99074DF5B766034C (void);
-// 0x00000015 System.Void LV1LightManager::HomelightHit()
+// 0x00000016 System.Void LV1LightManager::HomelightHit()
 extern void LV1LightManager_HomelightHit_m5014D2D9FF53934317363FE6153E36076EF6CA09 (void);
-// 0x00000016 System.Void LV1LightManager::HomelightBlast()
+// 0x00000017 System.Void LV1LightManager::HomelightBlast()
 extern void LV1LightManager_HomelightBlast_m85A4C8FAEC73F51A34E7594644ACC1615684A680 (void);
-// 0x00000017 System.Void LV1LightManager::Update()
+// 0x00000018 System.Void LV1LightManager::Update()
 extern void LV1LightManager_Update_m90B1225B8DA9365CBE803799CC0B9B7C4001D3CE (void);
-// 0x00000018 System.Void LV1LightManager::.ctor()
+// 0x00000019 System.Void LV1LightManager::.ctor()
 extern void LV1LightManager__ctor_m302A51B4FB503FA4F823428614CBC6A0E2FEEB73 (void);
-// 0x00000019 System.Void ObjectSpinner::LateUpdate()
+// 0x0000001A System.Void ObjectSpinner::LateUpdate()
 extern void ObjectSpinner_LateUpdate_mE796620508864E1A0A360316D6D4BF4BBA247024 (void);
-// 0x0000001A System.Void ObjectSpinner::.ctor()
+// 0x0000001B System.Void ObjectSpinner::.ctor()
 extern void ObjectSpinner__ctor_m6B05D2E03066B51B3CF3D8CFCAEA7B2FA1A29D6F (void);
-static Il2CppMethodPointer s_methodPointers[26] = 
+static Il2CppMethodPointer s_methodPointers[27] = 
 {
 	BaloonMovement_Start_m1DD5D8A15872E12172A0F1DA825D8AC6C5BD9567,
 	BaloonMovement_FixedUpdate_m74FCC79352DD80B159B4EA3497373DBEDEF2E378,
@@ -78,6 +80,7 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	Homelight_Update_m4FCF6D2FBA2BA851C5FFB3E2215952A712C14BA8,
 	Homelight_InitiateBlast_m5786EF8A99CD0DD563E9237A329CF31FEB742F0A,
 	Homelight_DisableLight_m0AD5A8B0DDA7912D572E5000E390463CD96898F9,
+	Homelight_OnTriggerEnter_mFE2A1FDE5E3180807F5C45D94EAE59D5F549AD18,
 	Homelight__ctor_mAC83DCE3138F51E5A7602F4B044CBFAAA1A3A30B,
 	Levelstate_add_OnLevelStateChanged_m7A29C864AC87F1B620482BF9D509E2CF121EB47A,
 	Levelstate_remove_OnLevelStateChanged_mDE5371FB55BCFE72282EFB523E63190A7FE9C2CA,
@@ -93,7 +96,7 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	ObjectSpinner_LateUpdate_mE796620508864E1A0A360316D6D4BF4BBA247024,
 	ObjectSpinner__ctor_m6B05D2E03066B51B3CF3D8CFCAEA7B2FA1A29D6F,
 };
-static const int32_t s_InvokerIndices[26] = 
+static const int32_t s_InvokerIndices[27] = 
 {
 	4440,
 	4440,
@@ -107,6 +110,7 @@ static const int32_t s_InvokerIndices[26] =
 	4440,
 	4440,
 	4440,
+	3516,
 	4440,
 	6713,
 	6713,
@@ -126,7 +130,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	26,
+	27,
 	s_methodPointers,
 	0,
 	NULL,
