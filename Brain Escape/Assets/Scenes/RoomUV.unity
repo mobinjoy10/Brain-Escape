@@ -484,6 +484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2985616674395586164, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
+      propertyPath: m_MovementType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7236869045775492770, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
       propertyPath: m_Name
       value: Book
@@ -666,6 +670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991cb3f423672a54b83a66ac7752323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  KnifeTag: 
+  lightManager: {fileID: 0}
 --- !u!1001 &972121247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -916,42 +922,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1479198615 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1187151890990603235, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
-  m_PrefabInstance: {fileID: 754695192}
-  m_PrefabAsset: {fileID: 0}
---- !u!138 &1479198619
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479198615}
-  m_ConnectedBody: {fileID: 2016547915}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!54 &1479198620
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479198615}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1660295724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1039,7 @@ GameObject:
   - component: {fileID: 1936482412}
   - component: {fileID: 1936482411}
   - component: {fileID: 1936482410}
+  - component: {fileID: 1936482414}
   m_Layer: 0
   m_Name: LightPlaceholder
   m_TagString: Untagged
@@ -1084,7 +1055,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936482409}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -1155,11 +1126,20 @@ Transform:
   m_Father: {fileID: 475016091}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2016547915 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 6400174016345606749, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
-  m_PrefabInstance: {fileID: 754695192}
+--- !u!114 &1936482414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936482409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991cb3f423672a54b83a66ac7752323b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KnifeTag: Knife
+  lightManager: {fileID: 1111592668}
 --- !u!1 &2019357678 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7445760787379202752, guid: 0f575e4b0e71f5943836888c7371d61d, type: 3}

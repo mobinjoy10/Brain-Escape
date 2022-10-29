@@ -6,6 +6,8 @@ public class Homelight : MonoBehaviour
 {
     private Animator animator;
 
+    [SerializeField] string KnifeTag;
+    [SerializeField] LV1LightManager lightManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +28,16 @@ public class Homelight : MonoBehaviour
     void DisableLight()
     {
         gameObject.SetActive(false);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+
+        if (other.CompareTag(KnifeTag))
+        {
+
+            lightManager.HomelightHit();
+        }
     }
 }
