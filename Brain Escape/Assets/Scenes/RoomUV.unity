@@ -488,6 +488,14 @@ PrefabInstance:
       propertyPath: m_MovementType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6581149058977146749, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0288
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581149058977146749, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0271
+      objectReference: {fileID: 0}
     - target: {fileID: 7236869045775492770, guid: 842d8ecb9fdffec46b7dfe84dfce95d4, type: 3}
       propertyPath: m_Name
       value: Book
@@ -1737,11 +1745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7284165852099665233, guid: af6377f57f0c7824aa2834234e3c630a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0006
+      value: -0.0011
       objectReference: {fileID: 0}
     - target: {fileID: 7284165852099665233, guid: af6377f57f0c7824aa2834234e3c630a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7284165852099665239, guid: af6377f57f0c7824aa2834234e3c630a, type: 3}
       propertyPath: m_TargetPosition.x
