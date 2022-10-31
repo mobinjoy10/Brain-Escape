@@ -18,7 +18,7 @@ public class LV1LightManager : MonoBehaviour
         MoonLightReflection.SetActive(false);
     }
 
-    void HomelightHit()
+    public void HomelightHit()
     {
         MoonLightReflection.SetActive(true);
         MoonLight.SetActive(true);

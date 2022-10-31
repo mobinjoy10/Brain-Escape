@@ -40,7 +40,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 07965dcc098f02244a36b992321a02cc, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Low
@@ -76,7 +76,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: e4a601bf3d363ac43a39a0bf1a31c0d0, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Medium
@@ -112,7 +112,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: dbe12558ba8c090459513090aeb78e88, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: High
@@ -148,7 +148,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 61f589d03c969c448a26a934dd87986f, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Very High
@@ -184,7 +184,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: f69c82ad0414d3148865beec2bca8df8, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Ultra
@@ -220,7 +220,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: ea7576d95fd2cae4a9c54f10314dc4ad, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Standalone Headset
@@ -230,7 +230,7 @@ QualitySettings:
     shadowProjection: 0
     shadowCascades: 4
     shadowDistance: 150
-    shadowNearPlaneOffset: 3
+    shadowNearPlaneOffset: 1
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
@@ -256,7 +256,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 770866c4bee079c4fbb212341d0ccea6, type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 6
