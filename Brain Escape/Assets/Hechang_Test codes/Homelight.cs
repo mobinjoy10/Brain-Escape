@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Homelight : MonoBehaviour
 {
-    private Animator animator;
+    [SerializeField] Animator animator;
 
     [SerializeField] string KnifeTag;
     [SerializeField] LV1LightManager lightManager;
@@ -27,12 +27,12 @@ public class Homelight : MonoBehaviour
 
     void DisableLight()
     {
+        Levelstate.instance.UpdateLevelState(Levelstate.LevelStates.LightDestroy);
         gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-
 
         if (other.CompareTag(KnifeTag))
         {

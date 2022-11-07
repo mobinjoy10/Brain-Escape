@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LV1LightManager : MonoBehaviour
 {
-    [SerializeField] GameObject HomeLight;
+    [SerializeField] GameObject HomeLightObj;
     [SerializeField] GameObject MoonLight;
     [SerializeField] GameObject MoonLightReflection;
 
@@ -13,7 +13,7 @@ public class LV1LightManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        HomeLight.SetActive(true);
+        HomeLightObj.SetActive(true);
         MoonLight.SetActive(false);
         MoonLightReflection.SetActive(false);
     }
