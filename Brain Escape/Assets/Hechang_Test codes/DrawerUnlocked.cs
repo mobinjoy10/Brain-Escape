@@ -7,9 +7,13 @@ public class DrawerUnlocked : MonoBehaviour
     //bool isLocked = true;
     [SerializeField] GameObject grabObj;
 
-    public void Unlocked()
+    private void OnTriggerEnter(Collider other)
     {
-        //isLocked = false;
-        grabObj.SetActive(true);
+        if (other.CompareTag("Key"))
+        {
+            grabObj.SetActive(true);
+            gameObject.SetActive(false);
+        }
     }
+
 }

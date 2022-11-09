@@ -29,7 +29,7 @@ public class NumberEmission : MonoBehaviour
         if(state == Levelstate.LevelStates.LightDestroy)
         {
             meshRenderer.material = emissionMat;
-            
+            grabObj.SetActive(true);
         }
     }
 
@@ -43,7 +43,7 @@ public class NumberEmission : MonoBehaviour
 
     public void DisableGrab()
     {
-       
+        grabObj.SetActive(false);
     }
 
 }
