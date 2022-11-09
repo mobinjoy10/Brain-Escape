@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Knife
   - Needle
+  - Magazine
+  - Numbers
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - UI
   - Table
   - Body
-  - 
-  - 
+  - Gun
+  - Grabables
   - 
   - 
   - 

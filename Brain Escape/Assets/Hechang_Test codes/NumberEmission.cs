@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class NumberEmission : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class NumberEmission : MonoBehaviour
         if(state == Levelstate.LevelStates.LightDestroy)
         {
             meshRenderer.material = emissionMat;
+            
+            XRGrabInteractable grab = gameObject.AddComponent(typeof(XRGrabInteractable)) as XRGrabInteractable;
         }
     }
 
@@ -30,6 +33,7 @@ public class NumberEmission : MonoBehaviour
     void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
+        
     }
 
     
