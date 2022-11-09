@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Levelstate : MonoBehaviour
 {
-    public static Levelstate Instance;
+    public static Levelstate instance;
 
     public LevelStates state;
 
@@ -13,7 +13,7 @@ public class Levelstate : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        instance = this;
     }
 
     private void Start()
@@ -28,7 +28,7 @@ public class Levelstate : MonoBehaviour
         DoorUnlocked,
     }
 
-    void UpdateLevelState(LevelStates newState)
+    public void UpdateLevelState(LevelStates newState)
     {
         state = newState;
 
