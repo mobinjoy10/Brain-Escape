@@ -8,6 +8,8 @@ TagManager:
   - Needle
   - Magazine
   - Numbers
+  - Socket
+  - Key
   layers:
   - Default
   - TransparentFX

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 7173867225820424981}
   - component: {fileID: 1336237354096423006}
   - component: {fileID: 3210787667441863576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Key Variant
-  m_TagString: Untagged
+  m_TagString: Key
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,8 +98,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0717885, y: 0.40171653, z: 5.520206}
-  m_Center: {x: 0, y: -0.0010442546, z: 1.4492685}
+  m_Size: {x: 2.0717885, y: 0.6084344, z: 5.520206}
+  m_Center: {x: 0, y: 0.015613367, z: 1.4492685}
 --- !u!54 &1336237354096423006
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &3210787667441863576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3076697378843840050}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Attachpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

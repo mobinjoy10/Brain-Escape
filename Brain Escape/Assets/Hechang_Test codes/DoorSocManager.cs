@@ -5,7 +5,9 @@ using UnityEngine;
 public class DoorSocManager : MonoBehaviour
 {
     [SerializeField] GameObject BaseObj;
+    [SerializeField] int numberLeft;
 
+    [SerializeField] DoorManager Door;
     private void Awake()
     {
         Levelstate.OnLevelStateChanged += Levelstate_OnLevelStateChanged;
@@ -21,6 +23,16 @@ public class DoorSocManager : MonoBehaviour
         if (state == Levelstate.LevelStates.LightDestroy)
         {
             BaseObj.SetActive(true);
+        }
+    }
+
+    public void ManageDoorLock()
+    {
+        numberLeft--;
+
+        if(numberLeft == 0)
+        {
+            Door.OpenDoor();
         }
     }
 }

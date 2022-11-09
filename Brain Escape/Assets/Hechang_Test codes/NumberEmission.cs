@@ -9,6 +9,11 @@ public class NumberEmission : MonoBehaviour
 
     MeshRenderer meshRenderer;
 
+    public int CodeNumber;
+
+    [SerializeField] GameObject grabObj;
+
+
     private void Awake()
     {
         Levelstate.OnLevelStateChanged += Levelstate_OnLevelStateChanged;
@@ -25,7 +30,6 @@ public class NumberEmission : MonoBehaviour
         {
             meshRenderer.material = emissionMat;
             
-            XRGrabInteractable grab = gameObject.AddComponent(typeof(XRGrabInteractable)) as XRGrabInteractable;
         }
     }
 
@@ -36,5 +40,10 @@ public class NumberEmission : MonoBehaviour
         
     }
 
-    
+
+    public void DisableGrab()
+    {
+       
+    }
+
 }
