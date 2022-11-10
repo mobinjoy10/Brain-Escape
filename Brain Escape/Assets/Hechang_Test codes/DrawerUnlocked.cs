@@ -12,7 +12,6 @@ public class DrawerUnlocked : MonoBehaviour
         if (other.CompareTag("Key"))
         {
             grabObj.SetActive(true);
-            gameObject.SetActive(false);
         }
     }
 

@@ -9,13 +9,17 @@ public class SocketCheck : MonoBehaviour
     [SerializeField] DoorSocManager doorSoc;
     [SerializeField] string numberTag;
 
+    [SerializeField] GameObject placeholderNum;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(numberTag))
         {
-            if(requiredCode == other.GetComponent<NumberEmission>().CodeNumber)
+            if(requiredCode == other.GetComponentInParent<NumberEmission>().CodeNumber)
             {
                 doorSoc.ManageDoorLock();
+                other.gameObject.SetActive(false);
+                placeholderNum.SetActive(true);
             }
         }
     }
