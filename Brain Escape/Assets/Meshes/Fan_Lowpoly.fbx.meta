@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 70eaa469db36e654bae4279744b58118
+guid: 944e23ba007e7a74182be52a2caaadd7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fan
+    second: {fileID: 2100000, guid: 52a979cb83abf8849a63fae2ad40f098, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
