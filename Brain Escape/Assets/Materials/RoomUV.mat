@@ -23,16 +23,9 @@ Material:
   m_Name: RoomUV
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
-<<<<<<< HEAD:Brain Escape/Assets/Materials/RoomUV.mat
   - _NORMALMAP
   m_InvalidKeywords:
   - _OCCLUSIONMAP
-=======
-  - _METALLICGLOSSMAP
-  - _NORMALMAP
-  - _PARALLAXMAP
-  m_InvalidKeywords: []
->>>>>>> 6757c2e8ccc8b0f9f9dde8d979af495f47bd7f78:Brain Escape/Assets/Materials/temp_Materials/ceiling_fan.mat
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -47,11 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-<<<<<<< HEAD:Brain Escape/Assets/Materials/RoomUV.mat
         m_Texture: {fileID: 2800000, guid: f484212b2a6686240814bd5619d5f4ae, type: 3}
-=======
-        m_Texture: {fileID: 2800000, guid: 33059b965ca482046808ed8e3bc5f85a, type: 3}
->>>>>>> 6757c2e8ccc8b0f9f9dde8d979af495f47bd7f78:Brain Escape/Assets/Materials/temp_Materials/ceiling_fan.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -71,15 +60,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-<<<<<<< HEAD:Brain Escape/Assets/Materials/RoomUV.mat
         m_Texture: {fileID: 2800000, guid: 9e4b7ebef3371534ea4003dd600285e6, type: 3}
-=======
-        m_Texture: {fileID: 2800000, guid: 8aef2431be533c64ebb32bc7055ed10c, type: 3}
->>>>>>> 6757c2e8ccc8b0f9f9dde8d979af495f47bd7f78:Brain Escape/Assets/Materials/temp_Materials/ceiling_fan.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: fd7359417928ed64381675918bef6443, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -87,7 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 0f7193b6cf234c44e93a9cf514c6351c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
