@@ -17,9 +17,20 @@ public class SocketCheck : MonoBehaviour
         {
             if(requiredCode == other.GetComponentInParent<NumberEmission>().CodeNumber)
             {
-                doorSoc.ManageDoorLock();
-                other.gameObject.SetActive(false);
-                placeholderNum.SetActive(true);
+                doorSoc.OpenDoorLock();
+                
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag(numberTag))
+        {
+            if (requiredCode == other.GetComponentInParent<NumberEmission>().CodeNumber)
+            {
+                doorSoc.CloseDoorLock();
+                
             }
         }
     }

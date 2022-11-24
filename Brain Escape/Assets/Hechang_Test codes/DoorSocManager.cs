@@ -26,7 +26,7 @@ public class DoorSocManager : MonoBehaviour
         }
     }
 
-    public void ManageDoorLock()
+    public void OpenDoorLock()
     {
         numberLeft--;
 
@@ -34,5 +34,10 @@ public class DoorSocManager : MonoBehaviour
         {
             Door.OpenDoor();
         }
+    }
+
+    public void CloseDoorLock()
+    {
+        numberLeft++;
     }
 }
