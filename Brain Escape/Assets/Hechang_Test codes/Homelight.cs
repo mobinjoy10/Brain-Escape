@@ -8,6 +8,9 @@ public class Homelight : MonoBehaviour
 
     [SerializeField] string KnifeTag;
     [SerializeField] LV1LightManager lightManager;
+
+    public AudioClip audioClip;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,7 @@ public class Homelight : MonoBehaviour
     public void InitiateBlast()
     {
         animator.SetTrigger("Blast");
+        audioSource.PlayOneShot(audioClip);
     }
 
     void DisableLight()
