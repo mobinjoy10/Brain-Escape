@@ -4352,9 +4352,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7633191943669604095, guid: 77459436eeb3aeb48871d657bcb5fd7f, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7633191943669604095, guid: 77459436eeb3aeb48871d657bcb5fd7f, type: 3}
+=======
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084637797807585367, guid: 539fe459f1366b340bd26efb9eb234d2, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -4398,6 +4404,7 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 7636151025791134495, guid: 77459436eeb3aeb48871d657bcb5fd7f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -4673,6 +4680,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 2032544099291618498, guid: 539fe459f1366b340bd26efb9eb234d2, type: 3}
+      propertyPath: lightManager
+      value: 
+      objectReference: {fileID: 1111592668}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75d1fd2b804fcc349a0658c8daec649e, type: 3}
 --- !u!114 &972121248 stripped
