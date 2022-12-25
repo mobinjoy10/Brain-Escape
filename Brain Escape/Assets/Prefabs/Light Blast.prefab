@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298867900402436439}
   m_Layer: 0
-  m_Name: Light Blast_In room
+  m_Name: Light Blast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
