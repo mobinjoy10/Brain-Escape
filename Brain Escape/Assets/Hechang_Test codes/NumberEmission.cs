@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class NumberEmission : MonoBehaviour
 {
     [SerializeField] Material emissionMat;
 
-    MeshRenderer meshRenderer;
-
     public int CodeNumber;
 
-    [SerializeField] GameObject grabObj;
-
+    MeshRenderer meshRenderer;
 
     private void Awake()
     {
@@ -29,7 +25,6 @@ public class NumberEmission : MonoBehaviour
         if(state == Levelstate.LevelStates.LightDestroy)
         {
             meshRenderer.material = emissionMat;
-            grabObj.SetActive(true);
         }
     }
 
@@ -37,13 +32,7 @@ public class NumberEmission : MonoBehaviour
     void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
-        
     }
 
-
-    public void DisableGrab()
-    {
-        grabObj.SetActive(false);
-    }
-
+    
 }

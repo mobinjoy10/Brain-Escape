@@ -40,6 +40,7 @@ public class Homelight : MonoBehaviour
 
         if (other.CompareTag(KnifeTag))
         {
+
             lightManager.HomelightHit();
         }
     }

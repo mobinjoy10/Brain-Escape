@@ -13,7 +13,7 @@ public class DrawerUnlocked : MonoBehaviour
         if (other.CompareTag("Key"))
         {
             grabObj.SetActive(true);
-            casing.GetComponent<Rigidbody>().isKinematic = false;
+            casing.isStatic = false;
             
         }
     }

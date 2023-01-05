@@ -10,14 +10,12 @@ public class LV1LightManager : MonoBehaviour
 
     [SerializeField] Homelight homelight;
 
- 
     // Start is called before the first frame update
     void Start()
     {
         HomeLightObj.SetActive(true);
         MoonLight.SetActive(false);
         MoonLightReflection.SetActive(false);
-        
     }
 
     public void HomelightHit()
