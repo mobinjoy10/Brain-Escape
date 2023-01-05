@@ -6,6 +6,8 @@ public class NumberEmission : MonoBehaviour
 {
     [SerializeField] Material emissionMat;
 
+    public int CodeNumber;
+
     MeshRenderer meshRenderer;
 
     private void Awake()
