@@ -6,15 +6,17 @@ public class SecondDial : MonoBehaviour
 {
     public bool clockIsRunning = true;
     Rigidbody rb;
-    float r;
+    int r;
+
+    [SerializeField] int startingRotation;
 
     [SerializeField] MinuteDial minute;
     
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        r = rb.rotation.eulerAngles.x;
-        
+        //r = (int)rb.rotation.eulerAngles.x;
+        r = startingRotation;
         RunClock();
     }
 
@@ -31,9 +33,10 @@ public class SecondDial : MonoBehaviour
             r += 6;
             rb.MoveRotation(Quaternion.Euler(r, rb.rotation.y, rb.rotation.z));
 
-            if (transform.rotation.eulerAngles.x > -0.5 && transform.rotation.eulerAngles.x < 0.5)
+            if(r > 359)
             {
-                Debug.Log("Yay");
+                r -= 360;
+
                 minute.OneMinutePassed();
             }
 
