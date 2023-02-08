@@ -10,6 +10,8 @@ TagManager:
   - Numbers
   - Socket
   - Key
+  - Pendulum
+  - Book
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Gun
   - Grabables
   - Key
-  - 
+  - Clock
   - 
   - 
   - 

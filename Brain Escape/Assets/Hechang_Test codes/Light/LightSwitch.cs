@@ -26,12 +26,14 @@ public class LightSwitch : MonoBehaviour
         isOn = !isOn;
         if (isOn)
         {
-            attachedLight.intensity = lightIntensity;
+            if(attachedLight != null)
+                attachedLight.intensity = lightIntensity;
             animator.SetBool("On", true);
         }
         else
         {
-            attachedLight.intensity = 0;
+            if (attachedLight != null)
+                attachedLight.intensity = 0;
             animator.SetBool("On", false);
         }
     }

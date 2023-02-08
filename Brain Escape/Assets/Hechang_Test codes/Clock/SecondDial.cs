@@ -8,6 +8,8 @@ public class SecondDial : MonoBehaviour
     Rigidbody rb;
     int r;
 
+    [SerializeField] AudioSource clickSound;
+
     [SerializeField] int startingRotation;
 
     [SerializeField] MinuteDial minute;
@@ -17,13 +19,16 @@ public class SecondDial : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         //r = (int)rb.rotation.eulerAngles.x;
         r = startingRotation;
-        RunClock();
+        if (clockIsRunning)
+        {
+            RunClock();
+        }
     }
 
-    void RunClock()
+    public void RunClock()
     {
-        if(clockIsRunning)
-         StartCoroutine(SecondPasses());
+            clickSound.Play();
+            StartCoroutine(SecondPasses());
     }
 
     private IEnumerator SecondPasses()
