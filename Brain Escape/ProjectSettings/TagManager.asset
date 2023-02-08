@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Knife
   - Needle
+  - Magazine
+  - Numbers
+  - Socket
+  - Key
+  - Pendulum
+  - Book
   layers:
   - Default
   - TransparentFX
@@ -15,10 +21,10 @@ TagManager:
   - UI
   - Table
   - Body
-  - 
-  - 
-  - 
-  - 
+  - Gun
+  - Grabables
+  - Key
+  - Clock
   - 
   - 
   - 
