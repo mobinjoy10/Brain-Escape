@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7709691960357651965}
   - component: {fileID: 7709691960357651966}
   - component: {fileID: 7709691960357651967}
+  - component: {fileID: 1925485738}
   m_Layer: 9
   m_Name: Bone.30
   m_TagString: Untagged
@@ -160,6 +161,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1925485738
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960357651963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960379125514
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,6 +187,7 @@ GameObject:
   - component: {fileID: 7709691960379125516}
   - component: {fileID: 7709691960379125517}
   - component: {fileID: 7709691960379125518}
+  - component: {fileID: 1392949506}
   m_Layer: 9
   m_Name: Bone.29
   m_TagString: Untagged
@@ -320,6 +336,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1392949506
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960379125514}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960423260750
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +412,7 @@ GameObject:
   - component: {fileID: 7709691960458587110}
   - component: {fileID: 7709691960458587111}
   - component: {fileID: 7709691960458587128}
+  - component: {fileID: 1387780167}
   m_Layer: 9
   m_Name: Bone.26
   m_TagString: Untagged
@@ -530,6 +561,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1387780167
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960458587108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960564612947
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +587,7 @@ GameObject:
   - component: {fileID: 7709691960564612949}
   - component: {fileID: 7709691960564612950}
   - component: {fileID: 7709691960564612951}
+  - component: {fileID: 484342248}
   m_Layer: 9
   m_Name: Bone.40
   m_TagString: Untagged
@@ -690,6 +736,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &484342248
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960564612947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960615040387
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +762,7 @@ GameObject:
   - component: {fileID: 7709691960615040389}
   - component: {fileID: 7709691960615040390}
   - component: {fileID: 7709691960615040391}
+  - component: {fileID: 1429238268}
   m_Layer: 9
   m_Name: Bone.27
   m_TagString: Untagged
@@ -850,6 +911,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1429238268
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960615040387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960646715292
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +937,7 @@ GameObject:
   - component: {fileID: 7709691960646715294}
   - component: {fileID: 7709691960646715295}
   - component: {fileID: 7709691960646715280}
+  - component: {fileID: 846834247}
   m_Layer: 9
   m_Name: Bone.02
   m_TagString: Untagged
@@ -1010,6 +1086,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &846834247
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960646715292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960656915122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1112,7 @@ GameObject:
   - component: {fileID: 7709691960656915124}
   - component: {fileID: 7709691960656915125}
   - component: {fileID: 7709691960656915126}
+  - component: {fileID: 2057515723}
   m_Layer: 9
   m_Name: Bone.28
   m_TagString: Untagged
@@ -1170,6 +1261,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2057515723
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960656915122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960660246279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1287,7 @@ GameObject:
   - component: {fileID: 7709691960660246297}
   - component: {fileID: 7709691960660246298}
   - component: {fileID: 7709691960660246299}
+  - component: {fileID: 1781702705}
   m_Layer: 9
   m_Name: Bone.14
   m_TagString: Untagged
@@ -1330,6 +1436,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1781702705
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960660246279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960679993884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,6 +1462,7 @@ GameObject:
   - component: {fileID: 7709691960679993886}
   - component: {fileID: 7709691960679993887}
   - component: {fileID: 7709691960679993872}
+  - component: {fileID: 1166812061}
   m_Layer: 9
   m_Name: Bone.23
   m_TagString: Untagged
@@ -1489,6 +1610,20 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.000063
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1166812061
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960679993884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960734634158
 GameObject:
@@ -1664,7 +1799,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 7709691960734634146}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1731,7 +1867,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -1783,6 +1919,7 @@ GameObject:
   - component: {fileID: 7709691960828019276}
   - component: {fileID: 7709691960828019277}
   - component: {fileID: 7709691960828019278}
+  - component: {fileID: 1805128755}
   m_Layer: 9
   m_Name: Bone.09
   m_TagString: Untagged
@@ -1931,6 +2068,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1805128755
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960828019274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960845527364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,6 +2094,7 @@ GameObject:
   - component: {fileID: 7709691960845527366}
   - component: {fileID: 7709691960845527367}
   - component: {fileID: 7709691960845527384}
+  - component: {fileID: 1034929225}
   m_Layer: 9
   m_Name: Bone.32
   m_TagString: Untagged
@@ -2091,6 +2243,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1034929225
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960845527364}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960880171104
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,6 +2269,7 @@ GameObject:
   - component: {fileID: 7709691960880171106}
   - component: {fileID: 7709691960880171107}
   - component: {fileID: 7709691960880171108}
+  - component: {fileID: 252320776}
   m_Layer: 9
   m_Name: Bone.34
   m_TagString: Untagged
@@ -2250,6 +2417,20 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.000063
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &252320776
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960880171104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960891345913
 GameObject:
@@ -2440,6 +2621,7 @@ GameObject:
   - component: {fileID: 7709691960896873206}
   - component: {fileID: 7709691960896873207}
   - component: {fileID: 7709691960896873096}
+  - component: {fileID: 724229464}
   m_Layer: 9
   m_Name: Bone.36
   m_TagString: Untagged
@@ -2588,6 +2770,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &724229464
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960896873204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960924233667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,6 +2796,7 @@ GameObject:
   - component: {fileID: 7709691960924233669}
   - component: {fileID: 7709691960924233670}
   - component: {fileID: 7709691960924233671}
+  - component: {fileID: 2044626751}
   m_Layer: 9
   m_Name: Bone.19
   m_TagString: Untagged
@@ -2748,6 +2945,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2044626751
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960924233667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691960954826196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,6 +2971,7 @@ GameObject:
   - component: {fileID: 7709691960954826198}
   - component: {fileID: 7709691960954826199}
   - component: {fileID: 7709691960954826216}
+  - component: {fileID: 2004260858}
   m_Layer: 9
   m_Name: Bone.15
   m_TagString: Untagged
@@ -2908,6 +3120,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2004260858
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691960954826196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961000961231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2920,6 +3146,7 @@ GameObject:
   - component: {fileID: 7709691961000961217}
   - component: {fileID: 7709691961000961218}
   - component: {fileID: 7709691961000961219}
+  - component: {fileID: 1733705120}
   m_Layer: 9
   m_Name: Bone.33
   m_TagString: Untagged
@@ -3068,6 +3295,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1733705120
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961000961231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961066898930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3321,7 @@ GameObject:
   - component: {fileID: 7709691961066898932}
   - component: {fileID: 7709691961066898933}
   - component: {fileID: 7709691961066898934}
+  - component: {fileID: 153331890}
   m_Layer: 9
   m_Name: Bone.10
   m_TagString: Untagged
@@ -3228,6 +3470,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &153331890
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961066898930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961102848903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,6 +3496,7 @@ GameObject:
   - component: {fileID: 7709691961102848921}
   - component: {fileID: 7709691961102848922}
   - component: {fileID: 7709691961102848923}
+  - component: {fileID: 196514161}
   m_Layer: 9
   m_Name: Bone.25
   m_TagString: Untagged
@@ -3388,6 +3645,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &196514161
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961102848903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961145036745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3400,6 +3671,7 @@ GameObject:
   - component: {fileID: 7709691961145036747}
   - component: {fileID: 7709691961145036748}
   - component: {fileID: 7709691961145036749}
+  - component: {fileID: 2068567537}
   m_Layer: 9
   m_Name: Bone.24
   m_TagString: Untagged
@@ -3548,6 +3820,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &2068567537
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961145036745}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961157774078
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,6 +3846,7 @@ GameObject:
   - component: {fileID: 7709691961157774064}
   - component: {fileID: 7709691961157774065}
   - component: {fileID: 7709691961157774066}
+  - component: {fileID: 1670048645}
   m_Layer: 9
   m_Name: Bone.00
   m_TagString: Untagged
@@ -3708,6 +3995,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1670048645
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961157774078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961393948657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3720,6 +4021,7 @@ GameObject:
   - component: {fileID: 7709691961393948659}
   - component: {fileID: 7709691961393948660}
   - component: {fileID: 7709691961393948661}
+  - component: {fileID: 1862658342}
   m_Layer: 9
   m_Name: Bone.38
   m_TagString: Untagged
@@ -3868,6 +4170,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1862658342
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961393948657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961408783037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,6 +4196,7 @@ GameObject:
   - component: {fileID: 7709691961408783039}
   - component: {fileID: 7709691961408783024}
   - component: {fileID: 7709691961408783025}
+  - component: {fileID: 1295641088}
   m_Layer: 9
   m_Name: Bone.06
   m_TagString: Untagged
@@ -4028,6 +4345,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1295641088
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961408783037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961507124333
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,6 +4371,7 @@ GameObject:
   - component: {fileID: 7709691961507124335}
   - component: {fileID: 7709691961507124320}
   - component: {fileID: 7709691961507124321}
+  - component: {fileID: 693986721}
   m_Layer: 9
   m_Name: Bone.08
   m_TagString: Untagged
@@ -4188,6 +4520,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &693986721
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961507124333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961516131780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4200,6 +4546,7 @@ GameObject:
   - component: {fileID: 7709691961516131782}
   - component: {fileID: 7709691961516131783}
   - component: {fileID: 7709691961516131800}
+  - component: {fileID: 524552527}
   m_Layer: 9
   m_Name: Bone.37
   m_TagString: Untagged
@@ -4348,6 +4695,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &524552527
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961516131780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961534498032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4360,6 +4721,7 @@ GameObject:
   - component: {fileID: 7709691961534498034}
   - component: {fileID: 7709691961534498035}
   - component: {fileID: 7709691961534498036}
+  - component: {fileID: 1956593100}
   m_Layer: 9
   m_Name: Bone.05
   m_TagString: Untagged
@@ -4508,6 +4870,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1956593100
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961534498032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961651051690
 GameObject:
   m_ObjectHideFlags: 0
@@ -4520,6 +4896,7 @@ GameObject:
   - component: {fileID: 7709691961651051692}
   - component: {fileID: 7709691961651051693}
   - component: {fileID: 7709691961651051694}
+  - component: {fileID: 1223068489}
   m_Layer: 9
   m_Name: Bone.17
   m_TagString: Untagged
@@ -4668,6 +5045,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1223068489
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961651051690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961671218140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4680,6 +5071,7 @@ GameObject:
   - component: {fileID: 7709691961671218142}
   - component: {fileID: 7709691961671218143}
   - component: {fileID: 7709691961671218128}
+  - component: {fileID: 1548930990}
   m_Layer: 9
   m_Name: Bone.01
   m_TagString: Untagged
@@ -4828,6 +5220,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1548930990
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961671218140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961798752783
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,6 +5246,7 @@ GameObject:
   - component: {fileID: 7709691961798752769}
   - component: {fileID: 7709691961798752770}
   - component: {fileID: 7709691961798752771}
+  - component: {fileID: 702455809}
   m_Layer: 9
   m_Name: Bone.04
   m_TagString: Untagged
@@ -4988,6 +5395,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &702455809
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961798752783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961819447184
 GameObject:
   m_ObjectHideFlags: 0
@@ -5000,6 +5421,7 @@ GameObject:
   - component: {fileID: 7709691961819447186}
   - component: {fileID: 7709691961819447187}
   - component: {fileID: 7709691961819447188}
+  - component: {fileID: 1578260773}
   m_Layer: 9
   m_Name: Bone.21
   m_TagString: Untagged
@@ -5148,6 +5570,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1578260773
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961819447184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961821877844
 GameObject:
   m_ObjectHideFlags: 0
@@ -5160,6 +5596,7 @@ GameObject:
   - component: {fileID: 7709691961821877846}
   - component: {fileID: 7709691961821877847}
   - component: {fileID: 7709691961821877864}
+  - component: {fileID: 99606147}
   m_Layer: 9
   m_Name: Bone.12
   m_TagString: Untagged
@@ -5308,6 +5745,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &99606147
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961821877844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961833475442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5320,6 +5771,7 @@ GameObject:
   - component: {fileID: 7709691961833475444}
   - component: {fileID: 7709691961833475445}
   - component: {fileID: 7709691961833475446}
+  - component: {fileID: 466992935}
   m_Layer: 9
   m_Name: Bone.35
   m_TagString: Untagged
@@ -5468,6 +5920,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &466992935
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961833475442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961880196080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5480,6 +5946,7 @@ GameObject:
   - component: {fileID: 7709691961880196082}
   - component: {fileID: 7709691961880196083}
   - component: {fileID: 7709691961880196084}
+  - component: {fileID: 152809671}
   m_Layer: 9
   m_Name: Bone.18
   m_TagString: Untagged
@@ -5628,6 +6095,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &152809671
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961880196080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961964204560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5640,6 +6121,7 @@ GameObject:
   - component: {fileID: 7709691961964204562}
   - component: {fileID: 7709691961964204563}
   - component: {fileID: 7709691961964204564}
+  - component: {fileID: 286437704}
   m_Layer: 9
   m_Name: Bone.11
   m_TagString: Untagged
@@ -5788,6 +6270,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &286437704
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961964204560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691961970680257
 GameObject:
   m_ObjectHideFlags: 0
@@ -5800,6 +6296,7 @@ GameObject:
   - component: {fileID: 7709691961970680259}
   - component: {fileID: 7709691961970680260}
   - component: {fileID: 7709691961970680261}
+  - component: {fileID: 1287945280}
   m_Layer: 9
   m_Name: Bone.07
   m_TagString: Untagged
@@ -5948,6 +6445,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1287945280
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691961970680257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691962179999191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,6 +6471,7 @@ GameObject:
   - component: {fileID: 7709691962179999209}
   - component: {fileID: 7709691962179999210}
   - component: {fileID: 7709691962179999211}
+  - component: {fileID: 1862543401}
   m_Layer: 9
   m_Name: Bone.31
   m_TagString: Untagged
@@ -6108,6 +6620,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1862543401
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691962179999191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691962195219342
 GameObject:
   m_ObjectHideFlags: 0
@@ -6120,6 +6646,7 @@ GameObject:
   - component: {fileID: 7709691962195219328}
   - component: {fileID: 7709691962195219329}
   - component: {fileID: 7709691962195219330}
+  - component: {fileID: 222882595}
   m_Layer: 9
   m_Name: Bone.39
   m_TagString: Untagged
@@ -6268,6 +6795,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &222882595
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691962195219342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691962264309947
 GameObject:
   m_ObjectHideFlags: 0
@@ -6407,6 +6948,7 @@ GameObject:
   - component: {fileID: 7709691962292397678}
   - component: {fileID: 7709691962292397679}
   - component: {fileID: 7709691962292397664}
+  - component: {fileID: 381328800}
   m_Layer: 9
   m_Name: Bone.13
   m_TagString: Untagged
@@ -6555,6 +7097,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &381328800
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691962292397676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691962300939471
 GameObject:
   m_ObjectHideFlags: 0
@@ -6567,6 +7123,7 @@ GameObject:
   - component: {fileID: 7709691962300939457}
   - component: {fileID: 7709691962300939458}
   - component: {fileID: 7709691962300939459}
+  - component: {fileID: 797108204}
   m_Layer: 9
   m_Name: Bone.16
   m_TagString: Untagged
@@ -6715,6 +7272,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &797108204
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691962300939471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691962364173305
 GameObject:
   m_ObjectHideFlags: 0
@@ -6727,6 +7298,7 @@ GameObject:
   - component: {fileID: 7709691962364173307}
   - component: {fileID: 7709691962364173308}
   - component: {fileID: 7709691962364173309}
+  - component: {fileID: 314080869}
   m_Layer: 9
   m_Name: Bone.03
   m_TagString: Untagged
@@ -6875,6 +7447,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.000063
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &314080869
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691962364173305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7709691962462186047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6887,6 +7473,7 @@ GameObject:
   - component: {fileID: 7709691962462186033}
   - component: {fileID: 7709691962462186034}
   - component: {fileID: 7709691962462186035}
+  - component: {fileID: 445981058}
   m_Layer: 9
   m_Name: Bone.22
   m_TagString: Untagged
@@ -7034,4 +7621,18 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.000063
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &445981058
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709691962462186047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.00006
+  m_Height: 0.0004
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
