@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public abstract class PuzzleManager : ScriptableObject
+public abstract class PuzzleManager : MonoBehaviour
 {
     public Action OnPuzzleCompleted;
 }

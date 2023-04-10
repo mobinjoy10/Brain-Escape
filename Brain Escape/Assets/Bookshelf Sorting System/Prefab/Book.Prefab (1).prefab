@@ -119,3 +119,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <colliderObjectType>k__BackingField: {fileID: 11400000, guid: d6ed6c85c74263844849acfe717b96d2, type: 2}
+  <bookIndex>k__BackingField: 1
+  puzzleManager: {fileID: 11400000, guid: 563ed6b6ac6e7ea458c93f46357b4733, type: 2}

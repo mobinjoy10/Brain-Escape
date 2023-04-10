@@ -57,6 +57,10 @@ PrefabInstance:
       value: Book.Prefab (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8550935857485933959, guid: 8e0b256a5e05ed241927ccddc5ff821b, type: 3}
+      propertyPath: <bookIndex>k__BackingField
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550935857485933959, guid: 8e0b256a5e05ed241927ccddc5ff821b, type: 3}
       propertyPath: <colliderObjectType>k__BackingField
       value: 
       objectReference: {fileID: 11400000, guid: 9affaf95d0499a945b13995b12506a2e, type: 2}

@@ -16,7 +16,6 @@ public class MinuteDial : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         r = startingRotation;
-        //r = (int)rb.rotation.eulerAngles.x;
     }
 
     public void OneMinutePassed()

@@ -9,6 +9,7 @@ public class HourScript : MonoBehaviour
     [SerializeField] int startingRotation;
     public BirdAnimController birdController;
 
+    public PlayableManager manager;
 
     private void Start()
     {
@@ -19,14 +20,14 @@ public class HourScript : MonoBehaviour
 
     public void OneHourPassed()
     {
-        Debug.Log(r);
-
         r += 30;
-
-        Debug.Log(r);
 
         rb.MoveRotation(Quaternion.Euler(r, rb.rotation.y, rb.rotation.z));
 
+        if (manager)
+        {
+            manager.StartPlaying();
+        }
 
         if (r > 360)
         {
