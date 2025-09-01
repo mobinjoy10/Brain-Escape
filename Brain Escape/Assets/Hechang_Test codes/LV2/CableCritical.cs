@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class CableCritical : MonoBehaviour
 {
-    public XRGrabInteractable interactable;
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable interactable;
     public Transform target;
     public float maxDist;
 

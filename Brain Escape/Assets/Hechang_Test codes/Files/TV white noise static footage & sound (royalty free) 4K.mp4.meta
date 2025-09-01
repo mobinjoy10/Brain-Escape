@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: ff03a43d8d4d6e14ba37ffa51713e6ed
 VideoClipImporter:
   externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 3
   frameRange: 0
   startFrame: -1
   endFrame: -1
@@ -13,7 +13,7 @@ VideoClipImporter:
   flipHorizontal: 0
   importAudio: 1
   targetSettings:
-    0:
+    :
       enableTranscoding: 1
       codec: 0
       resizeFormat: 7
@@ -22,7 +22,7 @@ VideoClipImporter:
       customHeight: 256
       bitrateMode: 1
       spatialQuality: 1
-    7:
+    Android:
       enableTranscoding: 1
       codec: 0
       resizeFormat: 7
