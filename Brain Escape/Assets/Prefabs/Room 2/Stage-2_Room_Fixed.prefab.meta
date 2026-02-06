@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 2251233522716114d9ea21424617477b
+<<<<<<<< HEAD:Brain Escape/Assets/Prefabs/Room 2/Stage-2_Room_Fixed.prefab.meta
+guid: 9be993cef074737408f2e8fff2b349bc
+========
+guid: cdda2f9eed5685b46a93ecf0d4ac6b02
+>>>>>>>> Hechang_Unity-6:Brain Escape/Assets/Prefabs/Room 2/PlugSide.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

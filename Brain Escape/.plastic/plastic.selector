@@ -1,0 +1,3 @@
+repository "BrainEscape@Hechang_Games@cloud"
+  path "/"
+    smartbranch "/main/Tanvir"

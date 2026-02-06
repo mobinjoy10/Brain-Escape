@@ -1,6 +1,10 @@
 fileFormatVersion: 2
-guid: abe702943ca520145a47b1b01abfc569
+<<<<<<<< HEAD:Brain Escape/Assets/Animations/DoorLV1.meta
+guid: 70394778be4434f4682cb618e49d39ae
 folderAsset: yes
+========
+guid: 529777b9f3aff534f80e4f0e1678c12a
+>>>>>>>> Hechang_Unity-6:Brain Escape/Assets/Scenes/Wire Room.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
